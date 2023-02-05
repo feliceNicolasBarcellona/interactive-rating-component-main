@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
+
+  :root {
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --font-family: 'Overpass', sans-serif;
+    --font: 15px;
+  } 
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-size: var(--font);
+    font-family: var(--font-family);
+  }
+
+  body {
+    background-color:rgb(5, 4, 3);
+  }
+
+  main {
+    max-width: 96rem;
+    margin: 0 auto;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 27.6667rem;
+    height: 27.7333rem;
+    background-color: rgb(23, 28, 35);
+    border-radius: 7.5%;
+    padding: 2.1333rem 2.4667rem 2rem 2rem;
+  }
+
+  .question-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .star {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 37, 42);
+  }
+
+  .question, .thank-you {
+    color: var(--white);
+    font-size: 1.7667rem;
+    font-weight: 600;
+    word-spacing: 0.25rem;
+  }
+
+  .mt-37 {
+    margin-top: 2.4667rem;
+  }
+
+  .description, .feedback {
+    color: var(--medium-grey);
+    font-size: 1.03rem;
+    line-height: 1.6em;
+  }
+
+  .mt-12 {
+    margin-top: 0.8rem;
+  }
+
+  .mb-13 {
+    margin-bottom: 13px;
+  }
+
+  .ratings {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.7333rem 0 1.9333rem 0;
+  }
+
+  .rate {
+    background-color: rgb(24, 37, 42);
+    width: 52px;
+    height: 52px;
+    display: flex;
+    color: var(--medium-grey);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.0667rem;
+  }
+
+  .rate:hover{
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+  }
+
+  input[type="radio"]{
+    display: none;
+  }
+
+  .btn {
+    background-color: var(--orange);
+    width: 100%;
+    height: 46px;
+    color: var(--white);
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    letter-spacing: 3px;
+  }
+
+  .thank-you-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+  }
+
+  .rating-selected {
+    background-color: rgb(24, 37, 42);
+    border-radius: 25px;
+    width: 194px;
+    padding: 10px 0px 7px;
+    color: var(--orange);
+    font-size: 400;
+    margin: 28px auto 40px;
+  }
+
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--white); 
+  }
+
+  .attribution a { 
+    color: var(--orange); 
+  }
