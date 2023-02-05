@@ -80,7 +80,7 @@
   }
 
   .mb-13 {
-    margin-bottom: 13px;
+    margin-bottom: 0.8667rem;
   }
 
   .ratings {
@@ -114,7 +114,7 @@
   .btn {
     background-color: var(--orange);
     width: 100%;
-    height: 46px;
+    height: 3.0667rem;
     color: var(--white);
     text-transform: uppercase;
     border: none;
@@ -131,14 +131,20 @@
     display: none;
   }
 
+  .illustration-thank-you {
+    width: 10.8667rem;
+    height: 7.2rem;
+    margin-top: 0.8rem;
+  }
+
   .rating-selected {
     background-color: rgb(24, 37, 42);
-    border-radius: 25px;
-    width: 194px;
-    padding: 10px 0px 7px;
+    border-radius: 1.6667rem;
+    width: 12.9333rem;
+    padding: 0.6667rem 0rem 0.4667rem;
     color: var(--orange);
     font-size: 400;
-    margin: 28px auto 40px;
+    margin: 1.8667rem auto 2.6667rem;
   }
 
   .attribution { 

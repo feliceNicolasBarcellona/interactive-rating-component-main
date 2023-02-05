@@ -1,18 +1,61 @@
 @media only screen and (max-width: 480px){
 
   .card {
-    width: 329px;
-    height: 360px;
-    padding: 24px 24px 32px;
+    width: 21.9333rem;
+    height: 24rem;
+    padding: 1.6rem 1.6rem 2.1333rem;
+    border-radius: 5%;
   }
 
   .star {
-    width: 40px;
-    height: 40px;
+    width: 2.6667rem;
+    height: 2.6667rem;
   }
-  svg {
-    width: 15px;
-    height: 14px;
+
+  .star-icon {
+    height: 0.9333rem;
+    width: 1rem;
+  }
+
+  .mt-37 {
+    margin-top: 1.4667rem;
+  }
+
+  .question {
+    font-size: 1.6rem;
+    word-spacing: 0;
+  }
+  
+  .description{
+    font-size: 0.9467rem;
+  }
+
+  .ratings {
+    margin: 1.6667rem 0 1.6rem;
+  }
+
+  .rate {
+    width: 2.8667rem;
+    height: 2.8667rem;
+    font-size: 0.9333rem;
+  }
+
+  .illustration-thank-you {
+    width: 9.7333rem;
+    height: 6.4rem;
+    margin-top: 0.6667rem;
+  }
+
+  .rating-selected {
+    margin: 1.3333rem auto 2rem;
+  }
+
+  .thank-you {
+    font-size: 1.6rem;
+  }
+
+  .feedback {
+    font-size: 0.9333rem;
   }
   
 }
